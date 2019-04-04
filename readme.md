@@ -9,7 +9,7 @@ var instagramProfileGet = require 'instagram-profile-get';
 
 (async () => {
     try {
-        const result = await instagram('crossfitcornwall');
+        const result = await instagramProfileGet('crossfitcornwall');
         console.log(result);
     } catch(err) {
         console.log(err);

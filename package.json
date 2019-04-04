@@ -1,6 +1,6 @@
 {
   "name": "instagram-profile-get",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Get image data from a public Instagram profile ",
   "main": "app.js",
   "scripts": {

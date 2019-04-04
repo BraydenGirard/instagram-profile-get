@@ -1,0 +1,29 @@
+{
+  "name": "instagram-profile-get",
+  "version": "1.0.0",
+  "description": "Get image data from a public Instagram profile ",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BraydenGirard/instagram-profile-get.git"
+  },
+  "keywords": [
+    "instagram",
+    "profile",
+    "images",
+    "public",
+    "api"
+  ],
+  "author": "Brayden Girard",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BraydenGirard/instagram-profile-get/issues"
+  },
+  "homepage": "https://github.com/BraydenGirard/instagram-profile-get#readme",
+  "dependencies": {
+    "puppeteer": "^1.14.0"
+  }
+}

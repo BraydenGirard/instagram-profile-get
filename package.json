@@ -1,7 +1,7 @@
 {
   "name": "instagram-profile-get",
-  "version": "1.0.2",
-  "description": "Get image data from a public Instagram profile ",
+  "version": "1.0.3",
+  "description": "Get image data from a public Instagram profile using Lambda. Note: Will not run locally unless you change executablePath variable to a local path of an exe of chrome.",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

@@ -1,8 +1,10 @@
-const puppeteer = require('puppeteer');
+const puppeteer = require('puppeteer-core');
+const chromium = require('chrome-aws-lambda');
 
 module.exports = async function(username) {
     try {
-        const browser = await puppeteer.launch();
+        const executablePath = await chromium.executablePath;
+        const browser = await puppeteer.launch({args: chromium.args, executablePath});
         const page = await browser.newPage();
         await page.goto(`https://instagram.com/${username}`);
         const allUrls = await page.$$eval('a:first-child', assetLinks => assetLinks.map(link => link.href));
